@@ -10,17 +10,12 @@ import json
 import time
 
 
-
+st.title('CRYPTON : CRYPTOCURRENCY WEB APPLICATION')
 image = Image.open('logo.jpeg')
 img = Image.open('btc.png')
 st.image(image)
 
-st.title('CRYPTON')
-st.markdown("""The compact cypto-currency app""")
-
-expander_bar = st.beta_expander("About")
-
-
+st.info("A complete real-time crypto currency web application for blockchain enthusiasts")
 
 
 col1 = st.sidebar
