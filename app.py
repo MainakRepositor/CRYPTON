@@ -9,7 +9,7 @@ import requests
 import json
 import time
 
-st.set_page_config(layout="wide")
+
 st.write('💰📈📊💰📈📊💰📈📊💰📈📊💰📈📊💰📈📊💰📈📊💰📈📊💰📈📊💰📈📊💰📈📊💰📈📊💰📈📊💰📈📊💰📈📊💰')
 image = Image.open('logo.jpeg')
 img = Image.open('btc.png')
