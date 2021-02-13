@@ -13,7 +13,7 @@ st.markdown(
         f"""
 <style>
     .reportview-container .main .block-container{{
-        max-width: {max_width}px;
+        
         padding-top: {padding_top}rem;
         padding-right: {padding_right}rem;
         padding-left: {padding_left}rem;
