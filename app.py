@@ -1,4 +1,4 @@
-
+import webbrowser
 import streamlit as st
 from PIL import Image
 import pandas as pd
@@ -154,3 +154,7 @@ else:
     plt.subplots_adjust(top = 1, bottom = 0)
     df_change['percent_change_1h'].plot(kind='barh', color=df_change.positive_percent_change_1h.map({True: 'g', False: 'r'}))
     col3.pyplot(plt)
+    
+url = 'https://www.linkedin.com/in/mainak-chaudhuri-127898176/'
+if st.button('Made with 💖 by Mainak Chaudhuri'):
+    webbrowser.open_new_tab(url)
