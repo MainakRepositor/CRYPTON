@@ -9,24 +9,7 @@ import requests
 import json
 import time
 
-st.markdown(
-        f"""
-<style>
-    .reportview-container .main .block-container{{
-        
-        padding-top: {padding_top}rem;
-        padding-right: {padding_right}rem;
-        padding-left: {padding_left}rem;
-        padding-bottom: {padding_bottom}rem;
-    }}
-    .reportview-container .main {{
-        color: {COLOR};
-        background-color: {BACKGROUND_COLOR};
-    }}
-</style>
-""",
-        unsafe_allow_html=True,
-    )
+
 
 image = Image.open('logo.jpeg')
 img = Image.open('btc.png')
