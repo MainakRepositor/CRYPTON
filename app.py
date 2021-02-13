@@ -154,4 +154,4 @@ else:
 url = 'https://www.linkedin.com/in/mainak-chaudhuri-127898176/'
 if st.button('Made with 💖 by Mainak Chaudhuri'):
     webbrowser.open_new_tab(url)
-st.write("About Me [click] (url)")
+st.write("About Me [click] ('https://www.linkedin.com/in/mainak-chaudhuri-127898176/')")
